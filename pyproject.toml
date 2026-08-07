@@ -18,6 +18,6 @@ protobuf = "^4.23.0"
 pyangbind = "^0.8.1"
 pytest = "^7.3.1"
 grpcio-tools = "^1.54.2"
-black = "^23.3.0"
+black = ">=23.3,<27.0"
 packaging = "^23.2"# Because of langchain dependencies in ORCASK, packaging should not be greater than 23.y.z.
 
